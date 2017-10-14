@@ -1,0 +1,21 @@
+{
+  "name": "employeechallenge",
+  "version": "1.0.0",
+  "description": "Code Challenge for Interview",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon src/index.js"
+  },
+  "author": "Himant Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
+}
