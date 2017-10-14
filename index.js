@@ -9,12 +9,12 @@ const app = express();
 const port = process.env.PORT || 8000;
 const values = [];
 //-----------------------------Database variables ----------------------------------------------
-var dbHost = "us-cdbr-iron-east-05.cleardb.net";//process.env.DB_HOST;
-var dbUser = "b776509fa77abb";//process.env.DB_USER;
-var dbPassword = "10c66b33";//process.env.DB_PASS;
-var dB = "heroku_fee39a6856fb4c3";//process.env.DB;
-var authUser = 'himant'; //process.env.authUser;
-var authPass = 'himant'; //process.env.authPass;
+var dbHost = process.env.DB_HOST;
+var dbUser = process.env.DB_USER;
+var dbPassword = process.env.DB_PASS;
+var dB = process.env.DB;
+var authUser = process.env.AUTH_USER;
+var authPass = process.env.AUTH_PASS;
 var db_config = {
 					host: dbHost,
 					user: dbUser,
