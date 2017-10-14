@@ -199,7 +199,7 @@ app.post('/employee/update/:id', function(req, res){
 				}
 				else {
 	   		        console.log ("Updated successfully");
-					res.send ("Updated Employee Data, new data is :" + JSON.stringify(results));
+					res.send ("Updated Employee Data for employee ID :" + employeeId);
 				}
 			myConnection.destroy();
 			})
