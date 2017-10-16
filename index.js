@@ -1,10 +1,8 @@
+//---------------------------- Needed Modules ---------------------------------------------
 const express = require('express');
 const bodyParser = require('body-parser');
-var mySql = require('mysql');
-var fs = require('fs');
-
-//var sql = fs.readFileSync('init_database.sql').toString();
-
+const mySql = require('mysql');
+const fs = require('fs');
 const app = express();
 const port = process.env.PORT || 8000;
 const values = [];
